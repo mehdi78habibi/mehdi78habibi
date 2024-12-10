@@ -1,6 +1,35 @@
 # Hey there! 👋 
 ### Welcome to my GitHub 🌟
 
+<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .text {
+      font-size: 50px;
+      font-family: Arial, sans-serif;
+      fill: #3498db;
+      stroke: #2c3e50;
+      stroke-width: 1px;
+      stroke-dasharray: 500;
+      stroke-dashoffset: 500;
+      animation: writeText 4s ease-in-out forwards, blink 0.5s step-end infinite;
+    }
+    @keyframes writeText {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes blink {
+      50% {
+        fill-opacity: 0;
+      }
+    }
+  </style>
+  <text x="50" y="100" class="text">Hehdi Habibi</text>
+</svg>
+
+
+
+
 ![Header](https://github.com/mehdi78habibi/mehdi78habibi/blob/main/GitHub_Banner.jpg?raw=true))
 
 Hi, I'm [Mehdi Habibi] 👨‍💻, a passionate **Data Scientist** from [Iran]! I enjoy working on **Machine Learning**, **AI**, **Data Mining** and **Data Analysis**.
