@@ -1,7 +1,7 @@
 # Hey there! 👋 
 ### Welcome to my GitHub 🌟
 
-![Header](https://your-banner-link.png)
+![Header](https://GitHub_Banner.png)
 
 Hi, I'm [Mehdi Habibi] 👨‍💻, a passionate **Data Scientist** from [Iran]! I enjoy working on **Machine Learning**, **AI**, **Data Mining** and **Data Analysis**.
 
