@@ -1,6 +1,92 @@
 # Hey there! 👋 
 ### Welcome to my GitHub 🌟
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Banner</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #2c3e50;
+            overflow: hidden;
+        }
+
+        .banner {
+            position: relative;
+            width: 100%;
+            height: 300px;
+            background: url('your-banner-image.png') no-repeat center/cover;
+        }
+
+        .banner h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: 'Arial', sans-serif;
+            font-size: 3rem;
+            color: white;
+            animation: fadeIn 3s ease-in-out infinite alternate;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translate(-50%, -60%);
+            }
+            100% {
+                opacity: 1;
+                transform: translate(-50%, -50%);
+            }
+        }
+
+        .banner .subtitle {
+            position: absolute;
+            top: 65%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: 'Arial', sans-serif;
+            font-size: 1.5rem;
+            color: #ecf0f1;
+            animation: moveUp 3s ease-in-out infinite alternate;
+        }
+
+        @keyframes moveUp {
+            0% {
+                opacity: 0;
+                transform: translate(-50%, 10%);
+            }
+            100% {
+                opacity: 1;
+                transform: translate(-50%, 0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <h1>Mehdi Habibi</h1>
+        <div class="subtitle">Master's Student in Data Science & AI</div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
 ![Header](https://github.com/mehdi78habibi/mehdi78habibi/blob/main/GitHub_Banner.jpg?raw=true))
 
 Hi, I'm [Mehdi Habibi] 👨‍💻, a passionate **Data Scientist** from [Iran]! I enjoy working on **Machine Learning**, **AI**, **Data Mining** and **Data Analysis**.
